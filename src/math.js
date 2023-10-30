@@ -1,9 +1,9 @@
 // экспортируй функции используя именованный экспорт
 
-export default function add(x, y) {
+export function add(x, y) {
   return x + y;
 }
 
-export default function div(x, y) {
+export function div(x, y) {
   return x / y;
 }
